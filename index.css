@@ -1,0 +1,60 @@
+/************** horizontal scroll **************/
+/* https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+/* https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
+/* https://ratracegrad.medium.com/horizontal-scrolling-using-flexbox-f9d16817f742 */
+/* with buttons: https://codesandbox.io/p/sandbox/horizontal-scroll-carousel-i09yx?file=%2Findex.html */
+
+.scroll-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  overflow-x: auto;
+
+  /* overflow-y: auto; */
+  /* height: fit-content; */
+  /* max-height: 100vh; */
+  /* justify-content: flex-start; */
+  /* flex-wrap: nowrap; */
+  /* -webkit-overflow-scrolling: touch; */
+
+  .item {
+    max-height: 50vh;
+    max-width: 90vw;
+    /* min-height: fit-content; */
+    flex: 0 0 auto;
+    /* overflow-y: scroll; */
+  }
+}
+
+.bg {
+  background-color: beige;
+  border-top: 1px solid bisque;
+  border-bottom: 1px solid bisque;
+}
+
+.marg {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+/************** AI suggestion **************/
+
+body {
+  font-family: sans-serif;
+}
+
+/*
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2em;
+}
+*/
