@@ -18,21 +18,29 @@
   <body>
     <main class="container">
       <section>
-        <ul>
-          <li>Fläche Deutschland: 357,596 km2</li>
-          <li>Fläche Japan: 377,975 km2</li>
+        <table class="nice-table">
+          <thead>
+            <tr>
+              <th>Land</th>
+              <th>Landfläche (km2)</th>
+              <th>Bevölkerung</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Deutschland</td>
+              <td>357.596</td>
+              <td>83.240.000</td>
+            </tr>
+            <tr>
+              <td>Japan</td>
+              <td>377.975</td>
+              <td>125.700.000</td>
+            </tr>
+          </tbody>
+        </table>
 
-          <li>
-            <a href="https://en.wikipedia.org/wiki/List_of_metropolitan_areas_in_Europe"
-              >List of metropolitan areas in Europe</a
-            >
-          </li>
-          <li>
-            <a href="https://luminocity3d.org/WorldPopDen/#6/38.677/136.626">Density map</a>
-          </li>
-        </ul>
-
-        <table>
+        <table class="nice-table">
           <thead>
             <tr>
               <th>City</th>
@@ -127,12 +135,15 @@
             </tr>
           </tbody>
         </table>
-
-        <div class="scroll-wrapper">
-          <img class="item" src="img/density-europe.png" />
-          <img class="item" src="img/density-japan.png" />
+        <div>
+          <a href="https://en.wikipedia.org/wiki/List_of_metropolitan_areas_in_Europe">Link zur Tabelle</a>
         </div>
 
+        <img style="max-width: 100%; max-height: 50vh" src="img/density-europe.png" />
+        <img style="max-width: 100%; max-height: 32.5vh" src="img/density-japan-dense.png" />
+        <div>
+          <a href="https://luminocity3d.org/WorldPopDen/#6/38.677/136.626">Link zur Karte</a>
+        </div>
       </section>
       <section>
         <h1 class="marg">Straßenbild</h1>
@@ -183,15 +194,31 @@
         </ul>
       </section>
 
-
-
-
       <section>
         <h1 class="marg">May 23</h1>
 
         <h2>Nakanoshima Rosengarten</h2>
         <div class="scroll-wrapper">
-          <div class="item" style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=nakanoshima+rose+garden&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">premium bootstrap themes</a><style>#google-maps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+          <div class="item" style="max-width: 100%; overflow: hidden; color: red; width: 500px; height: 500px">
+            <div id="google-maps-display" style="height: 100%; width: 100%; max-width: 100%">
+              <iframe
+                style="height: 100%; width: 100%; border: 0"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=nakanoshima+rose+garden&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="enable-maps-data"
+              >premium bootstrap themes</a
+            ><style>
+              #google-maps-display img.text-marker {
+                max-width: none !important;
+                background: none !important;
+              }
+              img {
+                max-width: none;
+              }
+            </style>
+          </div>
           <img class="item" src="img/05-23/PXL_20250523_034253893.jpg" />
           <img class="item" src="img/05-23/PXL_20250523_034334131.jpg" />
           <img class="item" src="img/05-23/PXL_20250523_034452114.jpg" />
@@ -210,11 +237,29 @@
 
         <h2>Hotel</h2>
         <div class="scroll-wrapper">
-          <img style="max-height: 50vh;" src="img/night/PXL_20250523_135059892.PANO.jpg" />
-          <div class="item" style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;"><div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=APA+hotel+umeda+eki&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">premium bootstrap themes</a><style>#google-maps-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+          <img style="max-height: 50vh" src="img/night/PXL_20250523_135059892.PANO.jpg" />
+          <div class="item" style="max-width: 100%; overflow: hidden; color: red; width: 500px; height: 500px">
+            <div id="google-maps-display" style="height: 100%; width: 100%; max-width: 100%">
+              <iframe
+                style="height: 100%; width: 100%; border: 0"
+                frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=APA+hotel+umeda+eki&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+              ></iframe>
+            </div>
+            <a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="enable-maps-data"
+              >premium bootstrap themes</a
+            ><style>
+              #google-maps-display img.text-marker {
+                max-width: none !important;
+                background: none !important;
+              }
+              img {
+                max-width: none;
+              }
+            </style>
+          </div>
         </div>
       </section>
-
     </main>
   </body>
 </html>
